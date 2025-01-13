@@ -5,6 +5,6 @@ public class FaturamentoDiario
 {
     [JsonProperty("dia")]
     public int Dia { get; set; }
-    [JsonProperty("faturamento")]
-    public double Faturamento { get; set; }
+    [JsonProperty("valor")]
+    public double Valor { get; set; }
 }
